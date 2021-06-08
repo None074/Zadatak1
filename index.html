@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zadatak</title>
+    <script>
+      const numberA = prompt("Unesite broj A: ");
+      const operator = prompt("Unesite operaciju (+, -, * ili /):  ");
+      const numberB = prompt("Unesite broj B: ");
+
+      let result;
+
+      if (operator == "+") {
+        result = numberA + numberB;
+      }
+       else if (operator == "-") {
+        result = numberA - numberB;
+      }
+       else if (operator == "*") {
+        result = numberA * numberB;
+      }
+       else {
+        result = numberA / numberB;
+      }
+
+      alert(result);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
